@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dança de Rua</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Você pode adicionar um arquivo CSS para estilizar a página -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .video-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            max-width: 600px;
+            height: 315px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Dança de Rua</h1>
+    
+    <div class="video-container">
+        <h2>Vídeo 1: Coreografia de Dança de Rua</h2>
+        <iframe src="https://www.youtube.com/embed/85cH-QjmA78" 
+                allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container">
+        <h2>Vídeo 2: Estilo Livre de Dança de Rua</h2>
+        <iframe src="https://www.youtube.com/embed/tO6gdbKTNTw" 
+                allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>
